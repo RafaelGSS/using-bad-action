@@ -1,0 +1,8 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  example_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: RafaelGSS/bad-action@v1.0.0
